@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* h1{
+    color: darkolivegreen;
+} */
+
+/* Id selector */
+/* #heading-2{
+    color: orange;
+    background-color: black;
+    font-size: 56px;
+} */
+
+/* class selector */
+/* .para{
+    color: lightsalmon;
+    background-color: black;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+} */
+
+.box-1{
+    /* border: 2px solid black; Apply border four sides */
+    border-left: 2px solid black; /* Apply border left side */
+    border-bottom: 2px solid black; /* Apply border bottom side */
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-2{
+    border: 2px solid green;
+    background-color: yellow;
+    margin: 50px;
+    padding: 50px;
+}
+
+.box-2 .heading-2{
+    border: 1px solid blueviolet;
+    padding: 20PX;
+    margin-bottom: 20px;
+}
+
+
+.box-2 .heading-3{
+    border: 1px solid blue;
+    margin-bottom: 20px ;
+}
+
+.box-2 .heading-4{
+    border: 1px solid green;
+}
+
+/* Notes */
+/* 255! color combination  */
+/* rgb color  */
+/* red 0-255 */
+/* green 0-255 */
+/* blue 0-255 */
+/* hex code color 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f */

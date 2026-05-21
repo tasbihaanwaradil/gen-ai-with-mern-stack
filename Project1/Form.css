@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+form{
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+label{
+    font-size: 18px;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fieldset-style{
+    margin: 20px 10px;
+}
+
+input{
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightgray;
+}
+
+.input-style{
+    padding: 5px;
+    width: 200px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightgray;
+
+}
+
+.input-radio-style{
+    margin-left: 5px;
+}
+
+select{
+    padding: 5px;
+}
+
+.skills-style{
+    margin : 0px 12px;
+}
+
+.submit-btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: darkgrey;
+}

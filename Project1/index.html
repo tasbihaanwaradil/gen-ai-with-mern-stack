@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+
+    <!-- Google Fonts: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <fieldset class="fieldset-style">
+            <legend>Personal Information</legend>
+            <label for="">Enter your name</label>
+            <input class="input-style" type="text" placeholder="Name"> <br>
+            <label for="">Enter your email</label>
+            <input type="email" placeholder="example@gmail.com"><br>
+            <label for="">Enter your password</label>
+            <input type="password" placeholder="******"><br>
+            <label for="">Select your gender</label>
+            <input class="input-radio-style" type="radio" name="gender" value="male">male
+            <input class="input-radio-style" type="radio" name="gender">female
+            <input class="input-radio-style" type="radio" name="gender">prefer not to say
+        </fieldset>
+        <fieldset class="fieldset-style">
+            <legend>Educational Information</legend>
+            <label for="">Enter your CGPA</label>
+            <input type="number" placeholder="eg: 3.5"> <br>
+            <label for="">Choose your degree</label>
+            <select name="" id="">
+                <option value="">Select a degree</option>
+                <option value="BSCS">Bachelor of Science in Computer Science</option>
+                <option value="BSSE">Bachelor of Science in Software Engineering</option>
+            </select><br>
+            <label for="">Choose your skills</label>
+            <input class="skills-style" type="checkbox">HTML
+            <input class="skills-style" type="checkbox">CSS
+            <input class="skills-style" type="checkbox">JavaScript
+            <input class="skills-style" type="checkbox">React
+            <input class="skills-style" type="checkbox">Node.js
+        </fieldset>
+
+        <button class="submit-btn" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
